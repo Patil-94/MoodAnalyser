@@ -1,23 +1,21 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MoodAnalyserProblem;
-using System;
 
 namespace MSTestMoodAnalyser
 {
     [TestClass]
     public class UnitTest1
-    {
-        /// <summary>
-        /// TC1.1:Given Iam in sad mood should Return sad.
-        /// </summary>
+    {/// <summary>
+    /// UC2 Handle Exception
+    /// </summary>
         [TestMethod]
-        public void Given_Sadmood_Expecting_Sad_Results()
+        public void Given_nullmood_Expecting_Exception_Results()
         {
-               //Arrange;
-            MoodAnalyser mood = new MoodAnalyser("I am in any mood");
-            string expected = "sad";
+            //Arrange;
+            MoodAnalyser mood = new MoodAnalyser(null);
+            string expected = "object reference not set to an instance of an object.";
 
-               //Act
+            //Act
             string actual = mood.Analyser();
 
             //Asert
