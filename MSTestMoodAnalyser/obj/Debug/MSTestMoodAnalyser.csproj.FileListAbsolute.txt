@@ -1,0 +1,17 @@
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\MSTestMoodAnalyser.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\MSTestMoodAnalyser.pdb
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\MoodAnalyserProblem.exe
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\MoodAnalyserProblem.pdb
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\MoodAnalyserProblem.exe.config
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\obj\Debug\MSTestMoodAnalyser.csprojAssemblyReference.cache
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\obj\Debug\MSTestMoodAnalyser.csproj.CoreCompileInputs.cache
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\obj\Debug\MSTestMoodAnalyser.csproj.CopyComplete
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\obj\Debug\MSTestMoodAnalyser.dll
+C:\Users\Radha\source\repos\MoodAnalyserProblem\MSTestMoodAnalyser\obj\Debug\MSTestMoodAnalyser.pdb

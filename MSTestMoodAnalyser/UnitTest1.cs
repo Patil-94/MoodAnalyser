@@ -7,14 +7,17 @@ namespace MSTestMoodAnalyser
     [TestClass]
     public class UnitTest1
     {
+        /// <summary>
+        /// TC1.1:Given Iam in sad mood should Return sad.
+        /// </summary>
         [TestMethod]
-        public void Given_Happymood_Expecting_Happy_Results()
+        public void Given_Sadmood_Expecting_Sad_Results()
         {
-            //    //Arrange;
-            MoodAnalyser mood = new MoodAnalyser("I am in happy mood");
-            string expected = "happy";
+               //Arrange;
+            MoodAnalyser mood = new MoodAnalyser("I am in sad mood");
+            string expected = "sad";
 
-            //    //Act
+               //Act
             string actual = mood.Analyser();
 
             //Asert
