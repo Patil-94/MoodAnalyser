@@ -6,14 +6,14 @@ namespace MSTestMoodAnalyser
     [TestClass]
     public class UnitTest1
     {/// <summary>
-    /// UC2 Handle Exception
+    /// TC2.1 nullmood should return happy
     /// </summary>
         [TestMethod]
-        public void Given_nullmood_Expecting_Exception_Results()
+        public void Given_nullmood_Expecting_Happy_Results()
         {
             //Arrange;
             MoodAnalyser mood = new MoodAnalyser(null);
-            string expected = "object reference not set to an instance of an object.";
+            string expected = "happy";
 
             //Act
             string actual = mood.Analyser();
