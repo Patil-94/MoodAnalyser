@@ -14,7 +14,7 @@ namespace MSTestMoodAnalyser
         public void Given_Sadmood_Expecting_Sad_Results()
         {
                //Arrange;
-            MoodAnalyser mood = new MoodAnalyser("I am in sad mood");
+            MoodAnalyser mood = new MoodAnalyser("I am in any mood");
             string expected = "sad";
 
                //Act
