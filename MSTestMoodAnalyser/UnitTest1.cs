@@ -6,14 +6,14 @@ namespace MSTestMoodAnalyser
     [TestClass]
     public class UnitTest1
     {/// <summary>
-     /// TC3.1 Nullmood Using CustomException Return Null
+     /// TC3.2 Emptymood Using CustomException Return empty
      /// </summary>
         [TestMethod]
-        public void Given_Nullmood_Using_CustomException_Return_Null()
+        public void Given_Emptymood_Using_CustomException_Return_Empty()
         {
             //Arrange;
-            MoodAnalyser mood = new MoodAnalyser(null);
-            string expected = "Mood should not be null";
+            MoodAnalyser mood = new MoodAnalyser("");
+            string expected = "Mood should not be empty";
             try
             {
                 //Act
