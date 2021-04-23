@@ -10,17 +10,18 @@ namespace MoodAnalyserProblem
     {
 
         //instance variable
-        string message;
+         string message;
 
-        //parameterized constructor for initializing instance member
-        public MoodAnalyser(string message)
+        //default constructor for initializing instance member
+        public MoodAnalyser()
         {
-            this.message = message;
+            
         }
 
         //Analyser method to find mood
         public string Analyser() //check msg passing into the constructor 
         {
+            //exception
             try
             {
                 if (this.message.Equals(string.Empty))

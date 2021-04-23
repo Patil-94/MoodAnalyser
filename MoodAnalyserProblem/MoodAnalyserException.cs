@@ -15,7 +15,7 @@ namespace MoodAnalyserProblem
         ExceptionType type;
         public enum ExceptionType
         {
-            NULL_EXCEPTION, EMPTY_EXCEPTION
+            NULL_EXCEPTION, EMPTY_EXCEPTION, NO_SUCH_FIELD, NO_SUCH_METHOD, NO_SUCH_CLASS, OBJECT_CREATION_ISSUE
         }
         /// <summary>
         /// parameterized contructor sets the Exception Type and message.
