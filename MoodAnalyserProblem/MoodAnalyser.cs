@@ -9,40 +9,47 @@ namespace MoodAnalyserProblem
     public class MoodAnalyser
     {
 
-        //instance variable
          string message;
 
-        //default constructor for initializing instance member
+        /// <summary>
+        /// parameterless constructor
+        /// </summary>
         public MoodAnalyser()
         {
-            
         }
 
-        //Analyser method to find mood
-        public string Analyser() //check msg passing into the constructor 
+        /// <summary>
+        /// Parameterised constructor for initializing instance member
+        /// </summary>
+        public MoodAnalyser(string message)
         {
-            //exception
+            this.message = message;
+        }
+
+        
+        ///Analyser method to find mood        
+        public string Analyser(string message)
+        {
             try
             {
-                if (this.message.Equals(string.Empty))
+                if (message.Equals(string.Empty))
                 {
-                    throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.EMPTY_EXCEPTION, "Mood should not be empty");
+                    throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.EMPTY_EXCEPTION, "Mood should not be EMPTY");
                 }
-                if (this.message.ToLower().Contains("happy"))
+                if (this.message.Contains("sad"))
                 {
-                    return "happy";
+                    return "SAD";
                 }
                 else
                 {
-                    return "sad";
+                    return "HAPPY";
                 }
             }
-            catch (NullReferenceException)
+            catch (NullReferenceException )
             {
-                //return ex.Message;
-                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NULL_EXCEPTION, "Mood should not be null");
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NULL_EXCEPTION, "Mood should not be NULL");
             }
         }
+       
     }
 }
-

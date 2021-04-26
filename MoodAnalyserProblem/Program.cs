@@ -10,8 +10,9 @@ namespace MoodAnalyserProblem
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("----Welcome To Mood Analyser----");
+            Console.WriteLine("----Welcome To Mood Analyser----");
             //Console.Read();
+            MoodAnalyser mood = new MoodAnalyser();
         }
     }
     
